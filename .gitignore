@@ -1,3 +1,6 @@
+gulf_videos_6mins/
+gulf_videos_transcripts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+output/
+*.wav
+libya_videos_texts/
+libya_videos_texts_check/
+libya_videos_texts2/
+libya_channels_videos/
+libya_videos_6mins/
+libya_videos_transcripts/
+libya_videos_texts_punct_corrected/
+libya_passages/
+nohup*
+*.whl
