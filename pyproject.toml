@@ -14,10 +14,6 @@ yt-dlp = "^2025.1.15"
 tqdm = "^4.67.1"
 setuptools = ">=70.0.0"
 cython = "^3.0.11"
-torch = { version = "^2.4.1", source = "pytorch-cpu" }
-numpy = ">=1.22,<2"
-omegaconf = "^2.3.0"
-nemo-toolkit = {extras = ["asr"], version = "^2.1.0"}
 langchain = "^0.3.15"
 google-cloud-aiplatform = "^1.78.0"
 langchain-core = "^0.3.31"
@@ -26,7 +22,10 @@ langchain-openai = "^0.3.1"
 langchain-google-genai = "^2.0.9"
 langchain-anthropic = "^0.3.4"
 pyarabic = "^0.6.15"
-
+torch = { version = "^2.4.1", source = "pytorch-cpu" }
+numpy = ">=1.22,<2"
+omegaconf = "^2.3.0"
+nemo-toolkit = {extras = ["asr"], version = "^2.1.0"}
 
 [build-system]
 requires = ["poetry-core"]
