@@ -126,5 +126,5 @@ def get_transcripts_metadata():
                 continue
 
 if __name__ == "__main__":
-    get_transcripts_metadata()
-    #presample_videos(50)
+    #get_transcripts_metadata()
+    presample_videos(100)
